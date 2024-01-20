@@ -1,0 +1,342 @@
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~ (main)
+$ pwd
+/c/Users/SAVITA TEKALE
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~ (main)
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IdeaProjects/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{256e4819-6aab-11ee-82f2-ffa982683709}.TM.blf
+ NTUSER.DAT{256e4819-6aab-11ee-82f2-ffa982683709}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{256e4819-6aab-11ee-82f2-ffa982683709}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ Postman/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Savita/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ bridgelab1/
+ data.csv
+ eclipse/
+ eclipse-workspace/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ protfolio/
+ sample/
+ test/
+ test1/
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~ (main)
+$ mkdir testbridgelab
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~ (main)
+$ cd testbridgelab
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ touch File9.txt
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ touch file99.txt file999.txt
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ ls
+File9.txt  file99.txt  file999.txt
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ mkdir bridgetest
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ ls
+File9.txt  bridgetest/  file99.txt  file999.txt
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ cd bridgetest
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab/bridgetest (main)
+$ cd ..
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ ls
+File9.txt  bridgetest/  file99.txt  file999.txt
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ rm file99.txt
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ ls
+File9.txt  bridgetest/  file999.txt
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ mkdir demo9
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ ls
+File9.txt  bridgetest/  demo9/  file999.txt
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ rm -r demo9/
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ ls
+File9.txt  bridgetest/  file999.txt
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ mv file9.txt bridgetest/
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ ls
+bridgetest/  file999.txt
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ ls
+bridgetest/  file999.txt
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab (main)
+$ cd bridgetest/
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab/bridgetest (main)
+$ ls
+file9.txt
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab/bridgetest (main)
+$ history
+    1  git init
+    2  git branch
+    3  git status
+    4  pwd
+    5  ls
+    6  ls -a
+    7  cd tekale
+    8  cd Tekale
+    9  cd C
+   10  nano file.txt
+   11  mkdir Savita
+   12  cd Savita
+   13  ls
+   14  cat file.txt
+   15  history
+   16  ls
+   17  cd..
+   18  cd ..
+   19  ls
+   20  mv file.txt Savita/
+   21  ls
+   22  rm file.txt
+   23  rm file.txt Savita/
+   24  ls
+   25  touch data.csv
+   26  napwd
+   27  pwd
+   28  ls
+   29  cat data.csv
+   30  ls
+   31  data.csv file,txt
+   32  head data.csv
+   33  echo "hiiii"
+   34  cat data.csv | grep sangita
+   35  git satus
+   36  git push origin main
+   37  git remot -v
+   38  git remote -v
+   39  git branch
+   40  rm -rf .git
+   41  git init
+   42  pwd
+   43  mkdir test
+   44  mkdir test
+   45  mkdir test1
+   46  cd test1
+   47  git clone https://github.com/ThineshArav
+   48  pwd
+   49  mkdir sample
+   50  cd sample
+   51  git clone ~git remote add origin https://github.com/SAVITA987/CapInvoice.git~
+   52  pwd
+   53  rkdir test
+   54  mkdir test
+   55  cd test\
+   56  git clone https://github.com/patelMayur0911/Cab_Invoice.git
+   57  git clone https://github.com/ThineshArav~
+   58  pwd
+   59  pwd
+   60  ls
+   61  mkdir testbridgelab
+   62  cd testbridgelab
+   63  touch File9.txt
+   64  touch file99.txt file999.txt
+   65  ls
+   66  mkdir bridgetest
+   67  ls
+   68  cd bridgetest
+   69  cd bridgetest/
+   70  cd testbridgelab
+   71  cd ..
+   72  ls -
+   73  ls
+   74  rm file22.txt
+   75  rm file99.txt
+   76  ls
+   77  mkdir demo9
+   78  ls
+   79  rm -r demo9/
+   80  ls
+   81  mv file9.txt bridgetest/
+   82  ls
+   83  ls
+   84  cd bridgetest/
+   85  ls
+   86  cd..
+   87  nano file999.txt
+   88  history
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab/bridgetest (main)
+$ touch data.csv
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab/bridgetest (main)
+$ pwd
+/c/Users/SAVITA TEKALE/testbridgelab/bridgetest
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab/bridgetest (main)
+$ cat data.csv
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab/bridgetest (main)
+$ head data.csv
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab/bridgetest (main)
+$ tail data.csv
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab/bridgetest (main)
+$ cat data.csv| grep Ave
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab/bridgetest (main)
+$ history
+    1  git init
+    2  git branch
+    3  git status
+    4  pwd
+    5  ls
+    6  ls -a
+    7  cd tekale
+    8  cd Tekale
+    9  cd C
+   10  nano file.txt
+   11  mkdir Savita
+   12  cd Savita
+   13  ls
+   14  cat file.txt
+   15  history
+   16  ls
+   17  cd..
+   18  cd ..
+   19  ls
+   20  mv file.txt Savita/
+   21  ls
+   22  rm file.txt
+   23  rm file.txt Savita/
+   24  ls
+   25  touch data.csv
+   26  napwd
+   27  pwd
+   28  ls
+   29  cat data.csv
+   30  ls
+   31  data.csv file,txt
+   32  head data.csv
+   33  echo "hiiii"
+   34  cat data.csv | grep sangita
+   35  git satus
+   36  git push origin main
+   37  git remot -v
+   38  git remote -v
+   39  git branch
+   40  rm -rf .git
+   41  git init
+   42  pwd
+   43  mkdir test
+   44  mkdir test
+   45  mkdir test1
+   46  cd test1
+   47  git clone https://github.com/ThineshArav
+   48  pwd
+   49  mkdir sample
+   50  cd sample
+   51  git clone ~git remote add origin https://github.com/SAVITA987/CapInvoice.git~
+   52  pwd
+   53  rkdir test
+   54  mkdir test
+   55  cd test\
+   56  git clone https://github.com/patelMayur0911/Cab_Invoice.git
+   57  git clone https://github.com/ThineshArav~
+   58  pwd
+   59  pwd
+   60  ls
+   61  mkdir testbridgelab
+   62  cd testbridgelab
+   63  touch File9.txt
+   64  touch file99.txt file999.txt
+   65  ls
+   66  mkdir bridgetest
+   67  ls
+   68  cd bridgetest
+   69  cd bridgetest/
+   70  cd testbridgelab
+   71  cd ..
+   72  ls -
+   73  ls
+   74  rm file22.txt
+   75  rm file99.txt
+   76  ls
+   77  mkdir demo9
+   78  ls
+   79  rm -r demo9/
+   80  ls
+   81  mv file9.txt bridgetest/
+   82  ls
+   83  ls
+   84  cd bridgetest/
+   85  ls
+   86  cd..
+   87  nano file999.txt
+   88  history
+   89  cat file999.txt
+   90  cat file99.txt
+   91  touch data.csv
+   92  pwd
+   93  cat data.csv
+   94  head data.csv
+   95  tail data.csv
+   96  cat data.csv| grep Ave
+   97  history
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab/bridgetest (main)
+$ echo Hello
+Hello
+
+SAVITA TEKALE@DESKTOP-9LBEGTJ MINGW64 ~/testbridgelab/bridgetest (main)
+$ echo Welcome to gitbash...
+Welcome to gitbash...
+
